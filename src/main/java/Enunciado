@@ -1,0 +1,15 @@
+En esta práctica aprenderemos a identificar y construir programas utilizando patrones de diseño.
+La utilización de patrones es fundamental en la construcción de un software extensible y reutilizable.
+El lenguaje Java, así como todos los frameworks de software, están hechos de acuerdo a los patrones más
+importantes del software.
+
+En todos los ejercicios, crea un proyecto con una clase Main que demuestre el uso del patrón
+(con las necesarias invocaciones).
+
+Crea una clase que replique el funcionamiento del comando 'Undo'. Esta clase será utilizada
+por la clase Main, que permitirá introducir opciones por consola.
+
+La clase 'Undo' debe guardar los últimos pedidos introducidos. Debe permitir añadir
+o eliminar pedidos, así como listar los últimos pedidos introducidos (similar al
+comando 'history' en Linux).
+La clase 'Undo' debe implementar imprescindiblemente un patrón Singleton.
